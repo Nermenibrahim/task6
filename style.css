@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+ header nav{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-nav a{
+    font-size: 20px;
+    position: relative;
+    left: 250px;
+    top:50px;
+    text-decoration: none;
+    color:rgb(65, 154, 255);
+    margin: 20px;
+    
+    
+
+    
+    
+    
+    
+}
+
+.left-nav a:hover{
+    font-size: 25px;
+    color:rgb(115, 172, 211);
+    text-decoration: underline;
+}
+
+.sec1 .left-sec1 p{
+
+    position: relative;
+    top: 10px;
+    font-size: 41px;
+    font-family: arial;
+    
+    
+}
+
+.sec1 .left-sec1 h3{
+   margin: 10px;
+    font-size: 18px;
+   
+    opacity: 0.5;
+    
+    
+} 
+
+.logo{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+ .left-nav{
+    position: absolute;
+    top: 10px;
+
+    padding-bottom: 5px;
+}
+
+.sec1 {
+    display: flex;
+}
+
+.sec1 .left-sec1{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.sec2{
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.sec2 .photos .img1{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    top:765px;
+    left: 200px;
+}
+
+.sec2 .photos .img1-p{
+  position: absolute;
+  top:920px;
+  left: 210px;
+}
+
+.sec2  .img1-h{
+    position: absolute;
+    top:950px;
+    left: 180px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    opacity: 0.5
+  }
+
+  .sec2  .img2{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    top:850px;
+    left: 560px;
+}
+
+.sec2  .img2-p{
+    position: absolute;
+    top:1000px;
+    left: 570px;
+  }
+  
+  .sec2  .img2-h{
+      position: absolute;
+      top:1030px;
+      left: 500px;
+      font-size: 15px;
+      
+      font-family: arial;
+      font-weight: bold;
+      opacity: 0.5
+    }
+
+
+    .sec2  .img3{
+        position: absolute;
+        width: 150px;
+        height: 130px;
+        top:1080px;
+        left: 900px;
+    }
+    
+    .sec2  .img3-p{
+        position: absolute;
+        top:1220px;
+        left: 950px;
+      }
+      
+      .sec2  .img3-h{
+          position: absolute;
+          top:1250px;
+          left: 850px;
+          font-size: 15px;
+          font-family: arial;
+          font-weight: bold;
+          opacity: 0.5
+        }
+
+
+        .sec2 .img4{
+            position: absolute;
+            top:1080px;
+            left: 180px;
+            width: 320px;
+            height: 270px;
+        }
+
+        .sec2 .img4-p{
+            font-size: 18px;
+            position: absolute;
+            top:1180px;
+            color: white;
+        }
+
+        .sec2 .img4-h{
+            position: absolute;
+            top:1200px;
+            left:275px;
+            
+            color: white;
+            font-size: 35px;
+        }
+
+        .sec2 .img5{
+            width: 170px;
+            height: 170px;
+            position: absolute;
+            top:1520px;
+            left: 260px;
+        }
+
+        .sec2 .img6{
+            
+            margin-top: 270px;
+            margin-left: 230px;
+            width: 380px;
+            height: 330px;
+        }
+
+        .sec2 .img7{
+            position: absolute;
+            top:1520px;
+            left: 990px;
+            width: 180px;
+            height: 180px;
+        }
+
+        .sec2 .p8{
+            font-size: 20px;
+            font-family: arial;
+            font-weight: bold;
+            margin-left: 305px;
+
+        }
+
+        .sec2 .p9{
+            font-size: 17px;
+            font-weight: bold;
+            font-family: arial;
+            margin-top: 30px;
+            margin-left:315px ;
+            opacity: 0.5;
+        }
+
+       
+
+        footer{
+            position: relative;
+            
+        }
+
+
+       .footer{
+        margin-bottom: 0;
+        height: 570px;
+        overflow: hidden;
+        margin-left: -50px;
+        margin-top: -50px;
+       }
+
+       .img8{
+        width: 650px;
+        height: 435px;
+        position: absolute;
+        left: 600px;
+        top:140px;
+       }
+
+       .background-img9{
+        position: absolute;
+        background: rgb(255, 255, 255);
+        width: 100px;
+        height: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-top: -170px;
+        margin-left: 100px;
+       }
+
+      
+
+       .img9{
+        position: absolute;
+        display: flex;
+        height: 25px;
+        top:400px;
+        left: 140px;
+        padding: 10px;
+        background-color: white;
+        padding-left: 10px;
+        border-radius: 10px;
+        
+       }
+
+       
+
+        .img10{
+        position: absolute;
+        display: flex;
+        height: 25px;
+        top:400px;
+        padding: 10px;
+        
+        left: 300px;
+        background-color: white;
+        border-radius: 10px;
+        
+        padding-left: 10px;
+        padding-right: 7px;
+        
+       }
+
+       
+
+       .img9 p{
+        padding: 10px;
+        font-size: 12px;
+        color: rgb(107, 38, 172);
+       }
+
+       .img10 p{
+        padding:10px ;
+        font-size: 12px;
+        color: rgb(107, 38, 172);
+       }
+
+       
+        .sociale {
+            display: flex;
+            margin-top: -95px;
+            margin-left: 140px;
+            
+            
+            
+            
+        }
+
+        
+
+        .footer-links a{
+            position: relative;
+            text-decoration: none;
+            font-size: 17px;
+            left: 118px;
+            top:17px;
+            margin: 15px;
+            color: white;
+            transition: 0.2;
+            
+            
+        }
+
+        .footer-links a:hover{
+            font-size: 22px;
+        }
+       
+        
+
+        
+
+
+
+
+
+
+
+
+
+
